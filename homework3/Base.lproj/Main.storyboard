@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Qzi-Rr-jz0">
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Merriweather-BoldItalic.ttf">
+            <string>Merriweather-BoldItalic</string>
+        </array>
+        <array key="Merriweather-LightItalic.ttf">
+            <string>Merriweather-LightItalic</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Travel-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Travel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="galata" translatesAutoresizingMaskIntoConstraints="NO" id="UuW-cF-Ypj">
+                                <rect key="frame" x="0.0" y="101.66666666666669" width="401" height="209"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="209" id="JXe-wu-JJD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="20"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Galata Kulesi ,Istanbul" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Spo-9M-RJn">
+                                <rect key="frame" x="16" y="331.66666666666669" width="212.33333333333334" height="25.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Merriweather-BoldItalic" family="Merriweather" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QbV-En-fbK">
+                                <rect key="frame" x="5" y="608" width="380.66666666666669" height="150"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="galataDiger" translatesAutoresizingMaskIntoConstraints="NO" id="ZfD-Xn-dqT">
+                                        <rect key="frame" x="0.0" y="0.0" width="112.33333333333333" height="150"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="20"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="galataDiger2" translatesAutoresizingMaskIntoConstraints="NO" id="fQn-Hx-0e7">
+                                        <rect key="frame" x="120.33333333333331" y="0.0" width="140" height="150"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="20"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" image="galataDiger3" translatesAutoresizingMaskIntoConstraints="NO" id="II6-34-iRB">
+                                        <rect key="frame" x="268.33333333333331" y="0.0" width="112.33333333333331" height="150"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="20"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Os1-pr-DrT">
+                                <rect key="frame" x="327.33333333333331" y="322" width="50.666666666666686" height="34.333333333333314"/>
+                                <color key="tintColor" systemColor="systemPinkColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="heart.fill" catalog="system" title=""/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E82-hc-6j3">
+                                <rect key="frame" x="16" y="390" width="361" height="192.33333333333337"/>
+                                <string key="text">Galata Tower is one of the first places to come to mind when it comes to places to visit in Istanbul. As a touristic place that has been watching the city for centuries with its majestic appearance and offering its guests the opportunity to see the most beautiful views of the city, Galata Tower is one of the symbols of Istanbul, which is frequently visited by both local and foreign tourists.</string>
+                                <fontDescription key="fontDescription" name="Merriweather-LightItalic" family="Merriweather" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Turkey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LQV-SB-IMF">
+                                <rect key="frame" x="15.999999999999996" y="361" width="53.666666666666657" height="21.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Merriweather-LightItalic" family="Merriweather" pointSize="17"/>
+                                <color key="textColor" name="Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ayk-ZN-ZjL">
+                                <rect key="frame" x="103" y="784" width="185" height="39.333333333333371"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.triangle.branch" catalog="system" imagePlacement="trailing" title="Random Place">
+                                    <fontDescription key="titleFontDescription" name="Merriweather-BoldItalic" family="Merriweather" pointSize="20"/>
+                                    <color key="baseForegroundColor" name="yaziRenk3"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="E82-hc-6j3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1th-GP-V84"/>
+                            <constraint firstItem="E82-hc-6j3" firstAttribute="leading" secondItem="LQV-SB-IMF" secondAttribute="leading" id="2zE-vQ-2Ti"/>
+                            <constraint firstItem="QbV-En-fbK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="2zn-bg-1Dw"/>
+                            <constraint firstItem="E82-hc-6j3" firstAttribute="leading" secondItem="Spo-9M-RJn" secondAttribute="leading" id="C9X-c2-RKK"/>
+                            <constraint firstItem="QbV-En-fbK" firstAttribute="centerX" secondItem="Ayk-ZN-ZjL" secondAttribute="centerX" id="I8P-VV-mdV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E82-hc-6j3" secondAttribute="trailing" constant="16" id="NNo-Av-DdZ"/>
+                            <constraint firstItem="Os1-pr-DrT" firstAttribute="top" secondItem="UuW-cF-Ypj" secondAttribute="bottom" constant="11.333333333333314" id="RBz-jl-D3i"/>
+                            <constraint firstItem="UuW-cF-Ypj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="UKO-yi-Sk0"/>
+                            <constraint firstItem="E82-hc-6j3" firstAttribute="top" secondItem="LQV-SB-IMF" secondAttribute="bottom" constant="7.3333333333333144" id="ZWn-02-QXN"/>
+                            <constraint firstItem="Os1-pr-DrT" firstAttribute="leading" secondItem="Spo-9M-RJn" secondAttribute="trailing" constant="98.999999999999915" id="adQ-09-3CC"/>
+                            <constraint firstItem="Spo-9M-RJn" firstAttribute="top" secondItem="UuW-cF-Ypj" secondAttribute="bottom" constant="21.000000000000057" id="b8w-uC-f5K"/>
+                            <constraint firstItem="LQV-SB-IMF" firstAttribute="top" secondItem="Spo-9M-RJn" secondAttribute="bottom" constant="3.9999999999999432" id="cgP-57-XOJ"/>
+                            <constraint firstItem="Ayk-ZN-ZjL" firstAttribute="top" secondItem="QbV-En-fbK" secondAttribute="bottom" constant="26" id="lH1-JT-yr7"/>
+                            <constraint firstItem="E82-hc-6j3" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="390" id="n2D-50-pKf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UuW-cF-Ypj" secondAttribute="trailing" constant="-24" id="rfK-fu-HgC"/>
+                            <constraint firstItem="QbV-En-fbK" firstAttribute="top" secondItem="E82-hc-6j3" secondAttribute="bottom" constant="25.666666666666629" id="vjp-A5-Cmt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Travel" id="4id-C6-a28"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910.68702290076328" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8LX-dA-OzU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qzi-Rr-jz0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="59t-MM-XSg">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="QUI-dD-Gtu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lBB-Bs-Wcs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16.030534351145036" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.triangle.branch" catalog="system" width="128" height="110"/>
+        <image name="galata" width="400" height="209"/>
+        <image name="galataDiger" width="112.33333587646484" height="150"/>
+        <image name="galataDiger2" width="140" height="140"/>
+        <image name="galataDiger3" width="112.33333587646484" height="150"/>
+        <image name="heart.fill" catalog="system" width="128" height="107"/>
+        <namedColor name="Color">
+            <color red="0.38823529411764707" green="0.38823529411764707" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="yaziRenk3">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

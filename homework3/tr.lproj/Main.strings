@@ -1,0 +1,21 @@
+
+/* Class = "UINavigationItem"; title = "Travel"; ObjectID = "4id-C6-a28"; */
+"4id-C6-a28.title" = "Seyahat";
+
+/* Class = "UIButton"; configuration.title = "Random Place"; ObjectID = "Ayk-ZN-ZjL"; */
+"Ayk-ZN-ZjL.configuration.title" = "Rastgele Yer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ayk-ZN-ZjL"; */
+"Ayk-ZN-ZjL.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Galata Tower is one of the first places to come to mind when it comes to places to visit in Istanbul. As a touristic place that has been watching the city for centuries with its majestic appearance and offering its guests the opportunity to see the most beautiful views of the city, Galata Tower is one of the symbols of Istanbul, which is frequently visited by both local and foreign tourists."; ObjectID = "E82-hc-6j3"; */
+"E82-hc-6j3.text" = "Galata Kulesi, İstanbul gezilecek yerler denilince ilk akla yerlerden birisidir. Heybetli görüntüsüyle yüzyıllardır kenti gözleyen, konuklarına şehrin en güzel manzaralarını görme imkanı sunan turistik bir yer olarak Galata Kulesi, hem yerli hem yabancı turistler tarafından sık sık ziyaret edilen İstanbul'un sembollerinden birisi.";
+
+/* Class = "UILabel"; text = "Turkey"; ObjectID = "LQV-SB-IMF"; */
+"LQV-SB-IMF.text" = "Türkiye";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Os1-pr-DrT"; */
+"Os1-pr-DrT.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Galata Kulesi ,Istanbul"; ObjectID = "Spo-9M-RJn"; */
+"Spo-9M-RJn.text" = "Galata Kulesi ,İstanbul";
