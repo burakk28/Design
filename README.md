@@ -14,9 +14,9 @@ Screens ; <br>
 
 <table>
     <tr>
-    <td><></td>
-    <td><></td>
-    <td><></td>
+    <td>English</td>
+    <td>Turkish</td>
+    <td>Dark Mode</td>
    </tr> 
   <tr>
     <td><img src="https://user-images.githubusercontent.com/77745850/212477116-885fa113-9995-44d0-bced-f0b032599f19.gif" width="100%"></td>
