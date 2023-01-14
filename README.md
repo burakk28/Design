@@ -12,8 +12,8 @@ I used for the basic travel application screen;
 
 Screens ; <br>
 
-<table>
-    <tr class="center">
+<table class="center">
+    <tr>
     <td>English</td>
     <td>Turkish</td>
     <td>Dark Mode</td>
