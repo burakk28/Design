@@ -12,7 +12,7 @@ I used for the basic travel application screen;
 
 Screens ; <br>
 
-<table class="center">
+<table>
     <tr>
     <td>English</td>
     <td>Turkish</td>
