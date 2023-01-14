@@ -13,8 +13,8 @@ I used for the basic travel application screen;
 Screens ; <br>
 
 <table>
-    <tr>
-    <td><center>English</center></td>
+    <tr class="center">
+    <td>English</td>
     <td>Turkish</td>
     <td>Dark Mode</td>
    </tr> 
