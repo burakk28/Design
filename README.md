@@ -14,7 +14,7 @@ Screens ; <br>
 
 <table>
     <tr>
-    <td>English</td>
+    <td><center>English</td>
     <td>Turkish</td>
     <td>Dark Mode</td>
    </tr> 
