@@ -3,7 +3,7 @@
 In Techcareer TechMaster Bootcamp 3rd homework, <br>
 I designed a sample travel application screen that supports English and Turkish languages and offers a dark mode option.
 
-I used for the small travel application screen;
+I used for the basic travel application screen;
 
 - UINavigationController
 - Auto Layout
