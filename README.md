@@ -1,7 +1,4 @@
-<p>
-  <center>#TechMaster Bootcamp Homework Design</center>
-</p>
-
+<center><p>Bu yazımız Sayfanın ortasında gözükecek</p></center>
 
 
 In Techcareer TechMaster Bootcamp 3rd homework, <br>
