@@ -1,4 +1,8 @@
-# TechMaster Bootcamp Homework Design
+<p>
+  <center>#TechMaster Bootcamp Homework Design</center>
+</p>
+
+
 
 In Techcareer TechMaster Bootcamp 3rd homework, <br>
 I designed a sample travel application screen that supports English and Turkish languages and offers a dark mode option.
